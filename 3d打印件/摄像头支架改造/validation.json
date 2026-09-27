@@ -1,0 +1,78 @@
+{
+  "version": "V1-fit-test",
+  "source_reference": "base_breadboard.stl",
+  "source_sha256": "403ec62e7975f7d3df85e4525053130752b948574ff78b856fa4f511ab4f33f7",
+  "mount_stl": "xiao_sense_camera_mast_v1.stl",
+  "mount_bounds_mm": {
+    "min": [
+      -24.25,
+      180.4372100830078,
+      -0.6999998092651367
+    ],
+    "max": [
+      29.75,
+      204.0,
+      102.68136596679688
+    ],
+    "size": [
+      54.0,
+      23.562789916992188,
+      103.38136577606201
+    ]
+  },
+  "rear_wall_assumption_mm": {
+    "wall_front_y": 190.6,
+    "wall_back_y": 194.6,
+    "wall_top_z": 13.75,
+    "clearance_note": "V1 clamp uses a generous gap; confirm with the printed base."
+  },
+  "camera_frame_opening_mm": {
+    "width": 26.0,
+    "height": 21.0
+  },
+  "camera_down_tilt_degrees": 30.0,
+  "strap_hole_diameter_mm": 3.1,
+  "clamp_gap_mm": 7.1,
+  "front_jaw_rib_relief": "source base outline shifted forward 0.3 mm; local gap increases at ribs",
+  "board_fit": "generic strap cradle; XIAO Sense / camera board dimensions not yet measured",
+  "mesh_quality_before_stl_reimport": {
+    "vertices": 1398,
+    "edges": 4209,
+    "polygons": 2803,
+    "non_manifold_edges": 0,
+    "zero_length_edges": 0
+  },
+  "stl_reimport_check": {
+    "vertices": 1398,
+    "triangles": 2812,
+    "connected_components": 1,
+    "non_manifold_edges": 0,
+    "zero_length_edges": 0,
+    "zero_area_faces": 0,
+    "signed_volume_mm3": 26025.98210987424,
+    "dimensions_mm": [
+      54.0,
+      23.5628,
+      103.3814
+    ],
+    "opening_ray_tests": {
+      "rays": 90,
+      "blocked": 0,
+      "scope": "sampled window and four strap holes; not actual camera field of view"
+    },
+    "nominal_base_intersection": {
+      "vertices": 0,
+      "faces": 0,
+      "volume_mm3": 0.0
+    }
+  },
+  "checks": {
+    "source_parts_untouched": true,
+    "mount_objects_after_union": 1,
+    "stl_exported": true,
+    "preview_rendered": true,
+    "physical_print_test": false,
+    "physical_camera_fit": false,
+    "collision_test_with_full_arm": false
+  }
+}

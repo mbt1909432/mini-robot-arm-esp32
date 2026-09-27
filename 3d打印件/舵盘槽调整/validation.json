@@ -1,0 +1,132 @@
+{
+  "source": "D:\\many_project\\\u5907\u8bfe\\\u4eba\u5de5\u667a\u80fd\u57fa\u7840\u4e0e\u5e94\u7528\\\u8ff7\u4f60\u673a\u68b0\u81c2\\3d\u6253\u5370\u4ef6\\arm-1.stl",
+  "source_sha256": "b098256149a0e60d6511becef192b8d08a08d73a666c1eb53caeb91e0148d983",
+  "blender_version": "5.2.2 LTS",
+  "units": "millimeters; STL coordinates are unchanged in scale",
+  "pocket_side_clearance_mm": 0.4,
+  "pocket_depth_before_mm": 2.0,
+  "pocket_depth_after_mm": 2.2,
+  "entry_chamfer_mm": 0.2,
+  "round_recess_diameter_nominal_mm": 7.8,
+  "round_through_hole_diameter_mm": 7.0,
+  "tip_recess_width_nominal_mm": 5.3,
+  "rim_minimum_nominal_mm": 1.9000000000000004,
+  "remaining_pocket_floor_mm": 2.8,
+  "original": {
+    "vertices": 467,
+    "faces": 946,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 3554.997359663539,
+    "bounds_mm": [
+      [
+        -8.25,
+        8.25
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "connected_components": 1
+  },
+  "modified": {
+    "vertices": 656,
+    "faces": 1324,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 3493.2892815303353,
+    "bounds_mm": [
+      [
+        -8.25,
+        8.25
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "connected_components": 1
+  },
+  "exported_stl": {
+    "vertices": 656,
+    "faces": 1324,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 3493.2892815303353,
+    "bounds_mm": [
+      [
+        -8.25,
+        8.25
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "connected_components": 1
+  },
+  "coupon": {
+    "vertices": 453,
+    "faces": 906,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 1069.6369610462402,
+    "bounds_mm": [
+      [
+        -6.0,
+        6.0
+      ],
+      [
+        -40.0,
+        -14.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "connected_components": 1
+  },
+  "coupon_exported_stl": {
+    "vertices": 453,
+    "faces": 906,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "volume_mm3": 1069.6369610462402,
+    "bounds_mm": [
+      [
+        -6.0,
+        6.0
+      ],
+      [
+        -40.0,
+        -14.0
+      ],
+      [
+        0.0,
+        5.0
+      ]
+    ],
+    "connected_components": 1
+  },
+  "outside_pocket_vertices_preserved": 384,
+  "physical_fit_verified": false
+}

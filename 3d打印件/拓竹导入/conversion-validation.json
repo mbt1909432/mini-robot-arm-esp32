@@ -1,0 +1,198 @@
+[
+  {
+    "file": "original-reference/arm-1_original.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-1",
+        "source": "arm-1.stl",
+        "source_sha256": "b098256149a0e60d6511becef192b8d08a08d73a666c1eb53caeb91e0148d983",
+        "size_mm": [
+          16.5,
+          80.0,
+          5.0
+        ],
+        "volume_mm3": 3554.9973596635373,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 467,
+        "triangle_count": 946
+      }
+    ]
+  },
+  {
+    "file": "original-reference/arm-2_original.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-2",
+        "source": "arm-2.stl",
+        "source_sha256": "9421e0f3df2f9aed10c1cc13915360f294343e27bb521d596b4f0aca60f645c9",
+        "size_mm": [
+          16.5,
+          80.0,
+          12.0
+        ],
+        "volume_mm3": 5023.0289045153495,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 655,
+        "triangle_count": 1322
+      }
+    ]
+  },
+  {
+    "file": "arm-1_modified.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-1_slot-plus-0.4mm",
+        "source": "舵盘槽调整\\arm-1_slot-plus-0.4mm.stl",
+        "source_sha256": "3959413b687b2160e347888d7a989671ed220bee55be3e6bf79fbe4363cf1017",
+        "size_mm": [
+          16.5,
+          80.0,
+          5.0
+        ],
+        "volume_mm3": 3493.289281530336,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 656,
+        "triangle_count": 1324
+      }
+    ]
+  },
+  {
+    "file": "arm-2_modified.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-2_slot-plus-0.4mm",
+        "source": "舵盘槽调整\\arm-2_slot-plus-0.4mm.stl",
+        "source_sha256": "5b924fe44d03f12865d2eeb3fd36ff16ecf4f16aa497a6db60b3aeaf10055b1c",
+        "size_mm": [
+          16.5,
+          80.0,
+          12.0
+        ],
+        "volume_mm3": 4961.3117004334745,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 829,
+        "triangle_count": 1670
+      }
+    ]
+  },
+  {
+    "file": "arm-1_fit-test.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-1_fit-test",
+        "source": "舵盘槽调整\\arm-1_fit-test.stl",
+        "source_sha256": "f209be93eac6adcae6ce44c9be566b94030aeea20d1c67b8b5797b2f7e61aefd",
+        "size_mm": [
+          12.0,
+          26.0,
+          5.0
+        ],
+        "volume_mm3": 1069.6369610462427,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 453,
+        "triangle_count": 906
+      }
+    ]
+  },
+  {
+    "file": "arm-2_fit-test.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-2_fit-test",
+        "source": "舵盘槽调整\\arm-2_fit-test.stl",
+        "source_sha256": "d95007ca2e47768d36c05bb3b002380c007593e482a7648ff0be252dce6e3c35",
+        "size_mm": [
+          12.0,
+          26.0,
+          5.0
+        ],
+        "volume_mm3": 1069.6339147362376,
+        "rotation": "Side pocket rotated upward",
+        "vertex_count": 390,
+        "triangle_count": 780
+      }
+    ]
+  },
+  {
+    "file": "modified-arms_pair.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-1_slot-plus-0.4mm",
+        "source": "舵盘槽调整\\arm-1_slot-plus-0.4mm.stl",
+        "source_sha256": "3959413b687b2160e347888d7a989671ed220bee55be3e6bf79fbe4363cf1017",
+        "size_mm": [
+          16.5,
+          80.0,
+          5.0
+        ],
+        "volume_mm3": 3493.289281530336,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 656,
+        "triangle_count": 1324
+      },
+      {
+        "name": "arm-2_slot-plus-0.4mm",
+        "source": "舵盘槽调整\\arm-2_slot-plus-0.4mm.stl",
+        "source_sha256": "5b924fe44d03f12865d2eeb3fd36ff16ecf4f16aa497a6db60b3aeaf10055b1c",
+        "size_mm": [
+          16.5,
+          80.0,
+          12.0
+        ],
+        "volume_mm3": 4961.3117004334745,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 829,
+        "triangle_count": 1670
+      }
+    ]
+  },
+  {
+    "file": "fit-tests_pair.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "arm-1_fit-test",
+        "source": "舵盘槽调整\\arm-1_fit-test.stl",
+        "source_sha256": "f209be93eac6adcae6ce44c9be566b94030aeea20d1c67b8b5797b2f7e61aefd",
+        "size_mm": [
+          12.0,
+          26.0,
+          5.0
+        ],
+        "volume_mm3": 1069.6369610462427,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 453,
+        "triangle_count": 906
+      },
+      {
+        "name": "arm-2_fit-test",
+        "source": "舵盘槽调整\\arm-2_fit-test.stl",
+        "source_sha256": "d95007ca2e47768d36c05bb3b002380c007593e482a7648ff0be252dce6e3c35",
+        "size_mm": [
+          12.0,
+          26.0,
+          5.0
+        ],
+        "volume_mm3": 1069.6339147362376,
+        "rotation": "Side pocket rotated upward",
+        "vertex_count": 390,
+        "triangle_count": 780
+      }
+    ]
+  }
+]

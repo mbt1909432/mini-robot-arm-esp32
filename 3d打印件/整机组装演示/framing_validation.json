@@ -1,0 +1,11 @@
+{
+  "tested_frames": 576,
+  "bounding_box_screen_extrema": [
+    0.0873737633228302,
+    0.11068230122327805,
+    0.875554084777832,
+    0.9531973600387573
+  ],
+  "clipped_frames": [],
+  "scope": "projected object bounding boxes, excludes studio floor and hidden harnesses"
+}

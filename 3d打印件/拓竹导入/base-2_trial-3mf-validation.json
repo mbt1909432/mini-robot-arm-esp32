@@ -1,0 +1,44 @@
+[
+  {
+    "file": "base-2_MG90S-clearance-D22-depth6.5_trial.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "base-2_MG90S-clearance-D22-depth6.5_trial",
+        "source": "圆盘适配检查\\base-2_MG90S-clearance-D22-depth6.5_trial.stl",
+        "source_sha256": "574d7a499083452c90f6a7be2323610f5612cda61f3da7dc3ea02235a0034af2",
+        "size_mm": [
+          37.99043273925781,
+          37.998619079589844,
+          29.5
+        ],
+        "volume_mm3": 12271.873769504735,
+        "rotation": "Original orientation preserved",
+        "vertex_count": 3477,
+        "triangle_count": 6962
+      }
+    ]
+  },
+  {
+    "file": "base-2_MG90S-clearance_fit-test.3mf",
+    "sliced": false,
+    "unit": "millimeter",
+    "objects": [
+      {
+        "name": "base-2_MG90S-clearance_fit-test",
+        "source": "圆盘适配检查\\base-2_MG90S-clearance_fit-test.stl",
+        "source_sha256": "dffa06bfc1da65246672822a10556dc42bf0713449cec7ec6fbbc1e2fe13ee21",
+        "size_mm": [
+          37.99043273925781,
+          37.998619079589844,
+          10.0
+        ],
+        "volume_mm3": 8462.51699655779,
+        "rotation": "Fit test only: underside recess faces upward",
+        "vertex_count": 2259,
+        "triangle_count": 4518
+      }
+    ]
+  }
+]

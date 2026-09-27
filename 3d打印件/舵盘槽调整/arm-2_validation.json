@@ -1,0 +1,110 @@
+{
+  "source": "D:\\many_project\\\u5907\u8bfe\\\u4eba\u5de5\u667a\u80fd\u57fa\u7840\u4e0e\u5e94\u7528\\\u8ff7\u4f60\u673a\u68b0\u81c2\\3d\u6253\u5370\u4ef6\\arm-2.stl",
+  "source_sha256": "9421e0f3df2f9aed10c1cc13915360f294343e27bb521d596b4f0aca60f645c9",
+  "blender_version": "5.2.2 LTS",
+  "units": "millimeters, original STL orientation and scale preserved",
+  "pocket_side_clearance_mm": 0.4,
+  "pocket_depth_before_mm": 2.0,
+  "pocket_depth_after_mm": 2.2,
+  "entry_chamfer_mm": 0.2,
+  "round_recess_diameter_nominal_mm": 7.8,
+  "round_through_hole_diameter_mm": 7.0,
+  "remaining_floor_thickness_mm": 2.8,
+  "rim_minimum_nominal_mm": 1.9,
+  "original_pocket_match_to_arm1_max_error_mm": 5.364418029785156e-07,
+  "outside_pocket_vertices_preserved": 572,
+  "removed_volume_mm3": 61.71720408188776,
+  "original": {
+    "vertices": 655,
+    "faces": 1322,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 5023.028904515358,
+    "bounds_mm": [
+      [
+        -33.25,
+        -16.75
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ]
+  },
+  "modified": {
+    "vertices": 829,
+    "faces": 1670,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 4961.31170043347,
+    "bounds_mm": [
+      [
+        -33.25,
+        -16.75
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ]
+  },
+  "exported_stl": {
+    "vertices": 829,
+    "faces": 1670,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 4961.31170043347,
+    "bounds_mm": [
+      [
+        -33.25,
+        -16.75
+      ],
+      [
+        -40.0,
+        40.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ]
+  },
+  "coupon_exported_stl": {
+    "vertices": 390,
+    "faces": 780,
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 1069.6339147362373,
+    "bounds_mm": [
+      [
+        -27.5,
+        -22.5
+      ],
+      [
+        -40.0,
+        -14.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ]
+  },
+  "physical_fit_verified": false
+}

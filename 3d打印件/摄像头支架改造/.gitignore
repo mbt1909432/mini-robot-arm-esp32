@@ -1,0 +1,4 @@
+# Blender local recovery backups; the deliverable is the current .blend.
+*.blend1
+*.blend2
+__pycache__/

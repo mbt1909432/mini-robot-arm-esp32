@@ -1,0 +1,9 @@
+*.blend1
+*.blend2
+__pycache__/
+frames/
+reference/
+diagnostics/
+qa/
+animation_contact.png
+encoded_sample.png

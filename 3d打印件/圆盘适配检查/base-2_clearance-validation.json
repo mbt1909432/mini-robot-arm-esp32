@@ -1,0 +1,102 @@
+{
+  "source": "D:\\many_project\\\u5907\u8bfe\\\u4eba\u5de5\u667a\u80fd\u57fa\u7840\u4e0e\u5e94\u7528\\\u786c\u4ef6\u5165\u95e8\\\u8ff7\u4f60\u673a\u68b0\u81c2\\3d\u6253\u5370\u4ef6\\base-2.stl",
+  "source_sha256": "d3276ae8eaa3613883ff3921341dacbdd2ed07498a75a21fef4f2b04c188ce88",
+  "status": "Unmeasured fit trial, not physically verified",
+  "recess_diameter_before_mm": 20,
+  "recess_diameter_after_mm": 22,
+  "recess_depth_before_mm": 6,
+  "recess_depth_after_mm": 6.5,
+  "mouth_chamfer_mm": 0.3,
+  "center_hole_diameter_mm_unchanged": 7.5,
+  "upper_vertices_preserved": 2634,
+  "sampled_min_roof_thickness_mm": 1.5,
+  "thickness_sample_count": 576,
+  "original": {
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 12840.656480858466,
+    "bounds_mm": [
+      [
+        -18.995216369628906,
+        18.995216369628906
+      ],
+      [
+        -18.999309539794922,
+        18.999309539794922
+      ],
+      [
+        -14.75,
+        14.75
+      ]
+    ],
+    "triangles": 5850
+  },
+  "modified": {
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 12271.873769504731,
+    "bounds_mm": [
+      [
+        -18.995216369628906,
+        18.995216369628906
+      ],
+      [
+        -18.999309539794922,
+        18.999309539794922
+      ],
+      [
+        -14.75,
+        14.75
+      ]
+    ],
+    "triangles": 6962
+  },
+  "exported_stl": {
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 12271.873769504731,
+    "bounds_mm": [
+      [
+        -18.995216369628906,
+        18.995216369628906
+      ],
+      [
+        -18.999309539794922,
+        18.999309539794922
+      ],
+      [
+        -14.75,
+        14.75
+      ]
+    ],
+    "triangles": 6962
+  },
+  "fit_test_stl": {
+    "non_manifold_edges": 0,
+    "inconsistent_edges": 0,
+    "degenerate_faces": 0,
+    "connected_components": 1,
+    "volume_mm3": 8462.516996557808,
+    "bounds_mm": [
+      [
+        -18.995216369628906,
+        18.995216369628906
+      ],
+      [
+        -18.999309539794922,
+        18.999309539794922
+      ],
+      [
+        -14.75,
+        -4.75
+      ]
+    ],
+    "triangles": 4518
+  }
+}

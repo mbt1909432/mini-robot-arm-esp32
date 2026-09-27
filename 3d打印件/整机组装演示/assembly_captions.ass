@@ -1,0 +1,28 @@
+[Script Info]
+Title: Robot Arm + Sense Camera Assembly
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Microsoft YaHei,28,&H00382A1B,&H00382A1B,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0,0,7,32,32,13,1
+Style: Description,Microsoft YaHei,18,&H006E6457,&H006E6457,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,32,32,51,1
+Style: Footer,Microsoft YaHei,17,&H006E6457,&H006E6457,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,1,32,32,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Title,,0,0,0,,先看全部零件
+Dialogue: 0,0:00:00.00,0:00:02.00,Description,,0,0,0,,橙色：底座与大臂　浅色：小臂　青绿色：新增摄像头支架
+Dialogue: 0,0:00:02.00,0:00:05.00,Title,,0,0,0,,01 / 底座与电子舱
+Dialogue: 0,0:00:02.00,0:00:05.00,Description,,0,0,0,,下方盒体承托底板；后方留出器件与走线位置。
+Dialogue: 0,0:00:05.00,0:00:09.00,Title,,0,0,0,,02 / 回转座与大臂
+Dialogue: 0,0:00:05.00,0:00:09.00,Description,,0,0,0,,圆筒底座支撑肩部；橙色大臂连接肩舵机与肘部舵机。
+Dialogue: 0,0:00:09.00,0:00:13.00,Title,,0,0,0,,03 / 小臂与夹爪
+Dialogue: 0,0:00:09.00,0:00:13.00,Description,,0,0,0,,浅色小臂接到肘部，末端再接夹爪与传动齿轮。
+Dialogue: 0,0:00:13.00,0:00:17.00,Title,,0,0,0,,04 / 摄像头支架与 Sense 组件
+Dialogue: 0,0:00:13.00,0:00:17.00,Description,,0,0,0,,支架装在底座后墙；镜头向前下俯 30°，安装空间仍需试装。
+Dialogue: 0,0:00:17.00,0:00:24.00,Title,,0,0,0,,05 / 拼好后，换个角度看
+Dialogue: 0,0:00:17.00,0:00:24.00,Description,,0,0,0,,观察相机、机械臂与工作区的位置；这是固定展示姿态。
+Dialogue: 0,0:00:00.00,0:00:24.00,Footer,,0,0,0,,Blender 数字装配演示　|　塑料件来自实际 STL；电子器件与线材为示意件

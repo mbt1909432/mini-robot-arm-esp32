@@ -1,0 +1,217 @@
+[
+  {
+    "RelativePath": "3d打印件.zip",
+    "SHA256": "01B0BF6C594D3F5D5D0CBF3B288CD45CBD3830D4028F1AFCC1268A7BDCE3BD47",
+    "Length": 952188
+  },
+  {
+    "RelativePath": "物料清单.txt",
+    "SHA256": "16413B65FFF205F106B565A2E1FE2693267C9700F73A3F5BFA3D774003D51C29",
+    "Length": 168
+  },
+  {
+    "RelativePath": "3d打印件\\1596575-robotic-arm-with-a-base-for-components-8ccf1a2c-f904-414d-9c45-ace055fcc071.pdf",
+    "SHA256": "FD76E94B9A5F86CA83F14B6FAD361B0986014DD1B058C828A04142D2566761B9",
+    "Length": 371140
+  },
+  {
+    "RelativePath": "3d打印件\\arm_support.stl",
+    "SHA256": "A499AB0786A60DB2BC1598271916FC0E3C2A5D775BD1E484E30CA59F4B025D29",
+    "Length": 58584
+  },
+  {
+    "RelativePath": "3d打印件\\arm-1.stl",
+    "SHA256": "B098256149A0E60D6511BECEF192B8D08A08D73A666C1EB53CAEB91E0148D983",
+    "Length": 47384
+  },
+  {
+    "RelativePath": "3d打印件\\arm-2.stl",
+    "SHA256": "9421E0F3DF2F9AED10C1CC13915360F294343E27BB521D596B4F0ACA60F645C9",
+    "Length": 66184
+  },
+  {
+    "RelativePath": "3d打印件\\base_breadboard.stl",
+    "SHA256": "403EC62E7975F7D3DF85E4525053130752B948574FF78B856FA4F511AB4F33F7",
+    "Length": 92584
+  },
+  {
+    "RelativePath": "3d打印件\\base-2.stl",
+    "SHA256": "D3276AE8EAA3613883FF3921341DACBDD2ED07498A75A21FEF4F2B04C188CE88",
+    "Length": 292584
+  },
+  {
+    "RelativePath": "3d打印件\\base1.stl",
+    "SHA256": "36A067146852D0424B3ADD0343EBDF5B9D7BF286850792EE901CA82CAB011256",
+    "Length": 887284
+  },
+  {
+    "RelativePath": "3d打印件\\case_lid.stl",
+    "SHA256": "E779908FED674A9197AF243D8E75B7AEBC75D5EF0C0A2130EEF834A266AD5788",
+    "Length": 79884
+  },
+  {
+    "RelativePath": "3d打印件\\case.stl",
+    "SHA256": "300ED0324636CE1EDAC06B6BFEA92553D3AE7BF0C06D68331D5BD8DED8D38CED",
+    "Length": 234684
+  },
+  {
+    "RelativePath": "3d打印件\\gear_arm1.stl",
+    "SHA256": "84208EA98D87D6FEC4634F80509571A5DE0D3792BC50952033CD3DE0E4F81731",
+    "Length": 47084
+  },
+  {
+    "RelativePath": "3d打印件\\gear_arm2.stl",
+    "SHA256": "7CEDDB420A2727736A1C220233686AC36DA4849C25601A7929B5B848F3E4A63A",
+    "Length": 47784
+  },
+  {
+    "RelativePath": "3d打印件\\gear_servo.stl",
+    "SHA256": "DEA8C4329FC3386B8651DA48AB2DCA3B7031EEF460DF533558F814871959B6ED",
+    "Length": 77484
+  },
+  {
+    "RelativePath": "3d打印件\\gear.stl",
+    "SHA256": "2D042A43DC5323FFAB11702215A03BDE52D695970A7F0199D2D1CC13A56D230C",
+    "Length": 117184
+  },
+  {
+    "RelativePath": "3d打印件\\tapa-v2.stl",
+    "SHA256": "59D7370E60DCD5F8304A59D0A158D355382FD62466546C593F15751D3F597C2F",
+    "Length": 280984
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\说明.md",
+    "SHA256": "C33977B51BC7A464BFCE8B3D8660A421D9DB4879235F0640EAAE503F699308BE",
+    "Length": 3057
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\adjust_arm1.py",
+    "SHA256": "2C359EE68F7CE5A9A59C7C01833765F1C0535D7FD60042EE85D5FDC26555AED2",
+    "Length": 10976
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\adjust_arm2.py",
+    "SHA256": "2C0CC672EA664D208815AF923D360D924B6B05ADBA02F1E3D8D1AB6275EF0670",
+    "Length": 7609
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_angle.png",
+    "SHA256": "7668EA7389FE880FB6EED2A35730578274DE8127FC1A86452ABB1B05662C5202",
+    "Length": 665063
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_bottom.png",
+    "SHA256": "D592CC14A6CF7850C3C8C7D7BD00C447129E32A834BC3A80D9DDE6FC7D6B51F9",
+    "Length": 659599
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_fit-test.stl",
+    "SHA256": "F209BE93EAC6ADCAE6CE44C9BE566B94030AEEA20D1C67B8B5797B2F7E61AEFD",
+    "Length": 45384
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_slot-adjusted.blend",
+    "SHA256": "08EA38805E6DE459498B496EB880342AF1B8E7A71931CA130192237EBEEF7A99",
+    "Length": 151292
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_slot-plus-0.4mm.stl",
+    "SHA256": "3959413B687B2160E347888D7A989671ED220BEE55BE3E6BF79FBE4363CF1017",
+    "Length": 66284
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-1_top.png",
+    "SHA256": "E81F51426AF3ADD62E9194FB5287CB89F2581584817DECD49CC12D81421B477C",
+    "Length": 660562
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_angle.png",
+    "SHA256": "3844B2D66770A575BA50122AF418AA2E1DD0CADAD18B6ADB3F30706DBEBCDEB7",
+    "Length": 656164
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_bottom.png",
+    "SHA256": "8FFEA48015D8156BDB315450AF80A932CA3A0281BF738329A57DCF4F0B5F7F67",
+    "Length": 651275
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_fit-test.stl",
+    "SHA256": "D95007CA2E47768D36C05BB3B002380C007593E482A7648FF0BE252DCE6E3C35",
+    "Length": 39084
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_pocket_after.png",
+    "SHA256": "B6965B0BDFCCAD42840850B18FBAF40C0AB7C06FAE5D478C7C74EEAE94042950",
+    "Length": 874791
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_pocket_before.png",
+    "SHA256": "A40FE83DF631E86CB77574DEC5F2C97C2056FC854AAC9C46C804557E34407F89",
+    "Length": 867324
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_slot-adjusted.blend",
+    "SHA256": "8986DB56A618A2C9E720C1A914FEF5DCACE0FC8AA3A5C3394DD6FFD2EFCDE5C7",
+    "Length": 163907
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_slot-plus-0.4mm.stl",
+    "SHA256": "5B924FE44D03F12865D2EEB3FD36FF16ECF4F16AA497A6DB60B3AEAF10055B1C",
+    "Length": 83584
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_top.png",
+    "SHA256": "52F20E361CD189252BEEAAFA112C8FCE1F5D228F2486B0C5E25BED618BEFF991",
+    "Length": 651857
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\arm-2_validation.json",
+    "SHA256": "B0C0F5BE7AC5AC703B3059D6530E14945D2020744E96E21321808CAF458E2A72",
+    "Length": 2454
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\inspect_models.py",
+    "SHA256": "7B590C5F7501C5107BEEA3E3AE9865EF3BC09E53A71293DA6263C6CE04A0EF79",
+    "Length": 2639
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\original_geometry.json",
+    "SHA256": "C4223B8F36A00371CB0706E62DD75F81983585111E53BE918C0F6C084B3BBC34",
+    "Length": 8539
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\pocket_after.png",
+    "SHA256": "709EE2FB3239819F22CB986E85EB93C83E3B13FDC7DE813E145A193BE9FB9784",
+    "Length": 788738
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\pocket_before.png",
+    "SHA256": "E44D9DD4D449015F6522BF0F6746DF3A453DA27D07026D8F4E182F78E33F6FE7",
+    "Length": 863826
+  },
+  {
+    "RelativePath": "3d打印件\\舵盘槽调整\\validation.json",
+    "SHA256": "7F015C06F85275BB6149AB32F9415BB8062857EA04FFBE26BAD7B964CAE9BC7D",
+    "Length": 2760
+  },
+  {
+    "RelativePath": "代码\\Circuit_bb.png",
+    "SHA256": "DE39AADFF7C5914FFDF40884A57E7C66A794D2CAF090642D28F1AC32BD00E8A4",
+    "Length": 96428
+  },
+  {
+    "RelativePath": "代码\\Readme.md",
+    "SHA256": "32C07431A8D797C7534434AC49053F517EFA67AFA30245A182AE2C83BAF9F840",
+    "Length": 2380
+  },
+  {
+    "RelativePath": "代码\\91_Robot_Arm_ESP32\\91_Robot_Arm_ESP32.ino",
+    "SHA256": "06CA612AACE09A6EA654DB36DDA6CC072C107359DD9AA81112BD548279727FFA",
+    "Length": 3630
+  },
+  {
+    "RelativePath": "代码\\91_Robot_Arm_ESP32\\web.h",
+    "SHA256": "E4D00A187D9EC5376288C9E3A972E354D2A581BC74B634F92EC25008298B2B65",
+    "Length": 2827
+  }
+]

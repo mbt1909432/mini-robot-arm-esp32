@@ -1,0 +1,24 @@
+{
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 920,
+        "r_frame_rate": "24/1",
+        "duration": "24.000000",
+        "nb_read_frames": "576"
+      }
+    ]
+  },
+  "all_576_source_frames_present": true,
+  "dimensions": [
+    1280,
+    920
+  ],
+  "caption_file": "assembly_captions.ass",
+  "audio": "none",
+  "rendering": "Blender Workbench animation / Eevee still images"
+}

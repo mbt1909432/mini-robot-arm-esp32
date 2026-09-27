@@ -1,0 +1,9 @@
+.arduino-cli-local/
+代码/*/build/
+__pycache__/
+*.py[cod]
+*.blend1
+3d打印件/整机组装演示/frames/
+.DS_Store
+Thumbs.db
+
