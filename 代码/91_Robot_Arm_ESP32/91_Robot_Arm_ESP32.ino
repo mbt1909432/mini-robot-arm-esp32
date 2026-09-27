@@ -60,8 +60,9 @@ int fb_current = DEFAULT_HOME_FB;
 int ud_current = DEFAULT_HOME_UD;
 int grip_current = DEFAULT_HOME_GRIP;
 
-const int STEP_ARM = 2;   // smooth arm motion
-const int STEP_GRIP = 5;  // faster gripper
+const int STEP_ARM = 3;   // responsive but still progressive arm motion
+const int STEP_GRIP = 6;  // gripper can move slightly faster
+const unsigned long SERVO_UPDATE_MS = 15;
 
 int clampAxis(const String& axis, int value) {
   if (axis == "lr") return constrain(value, LIMIT_LR_MIN, LIMIT_LR_MAX);
@@ -248,7 +249,7 @@ void loop() {
   delay(2);  //allow the cpu to switch to other tasks
 
   static unsigned long lastUpdate = 0;
-  if (millis() - lastUpdate >= 20) {
+  if (millis() - lastUpdate >= SERVO_UPDATE_MS) {
     lastUpdate = millis();
 
     // Left / Right
