@@ -60,9 +60,10 @@ int fb_current = DEFAULT_HOME_FB;
 int ud_current = DEFAULT_HOME_UD;
 int grip_current = DEFAULT_HOME_GRIP;
 
-const int STEP_ARM = 3;   // responsive but still progressive arm motion
-const int STEP_GRIP = 6;  // gripper can move slightly faster
-const unsigned long SERVO_UPDATE_MS = 15;
+int motionStepArm = 1;
+int motionStepGrip = 2;
+unsigned long servoUpdateMs = 20;
+String motionMode = "smooth";
 
 int clampAxis(const String& axis, int value) {
   if (axis == "lr") return constrain(value, LIMIT_LR_MIN, LIMIT_LR_MAX);
@@ -113,6 +114,7 @@ String poseJson() {
                     ",\"ud\":" + String(home_ud) +
                     ",\"grip\":" + String(home_grip) +
                     "},\"ip\":\"" + WiFi.softAPIP().toString() +
+                    "\",\"motion\":\"" + motionMode +
                     "\",\"uptime\":" + String(millis() / 1000) + "}";
   return response;
 }
@@ -177,6 +179,24 @@ void handleJog() {
   server.send(200, "application/json", poseJson());
 }
 
+void handleMotion() {
+  String mode = server.arg("mode");
+  if (mode == "fast") {
+    motionMode = "fast";
+    motionStepArm = 3;
+    motionStepGrip = 5;
+  } else if (mode == "standard") {
+    motionMode = "standard";
+    motionStepArm = 2;
+    motionStepGrip = 3;
+  } else {
+    motionMode = "smooth";
+    motionStepArm = 1;
+    motionStepGrip = 2;
+  }
+  server.send(200, "application/json", poseJson());
+}
+
 void handleServo() {
 
   if (server.hasArg("lr"))
@@ -221,6 +241,7 @@ void setup() {
   server.on("/home/config", HTTP_POST, handleHomeConfig);
   server.on("/home/factory", HTTP_GET, handleFactoryHome);
   server.on("/jog", HTTP_GET, handleJog);
+  server.on("/motion", HTTP_GET, handleMotion);
 
   // Route for root / web page
   server.on("/", HTTP_GET, []() {
@@ -249,28 +270,28 @@ void loop() {
   delay(2);  //allow the cpu to switch to other tasks
 
   static unsigned long lastUpdate = 0;
-  if (millis() - lastUpdate >= SERVO_UPDATE_MS) {
+  if (millis() - lastUpdate >= servoUpdateMs) {
     lastUpdate = millis();
 
     // Left / Right
-    if (lr_current < lr_target) lr_current += STEP_ARM;
-    else if (lr_current > lr_target) lr_current -= STEP_ARM;
-    if (abs(lr_current - lr_target) < STEP_ARM) lr_current = lr_target;
+    if (lr_current < lr_target) lr_current += motionStepArm;
+    else if (lr_current > lr_target) lr_current -= motionStepArm;
+    if (abs(lr_current - lr_target) < motionStepArm) lr_current = lr_target;
 
     // Forward / Backward
-    if (fb_current < fb_target) fb_current += STEP_ARM;
-    else if (fb_current > fb_target) fb_current -= STEP_ARM;
-    if (abs(fb_current - fb_target) < STEP_ARM) fb_current = fb_target;
+    if (fb_current < fb_target) fb_current += motionStepArm;
+    else if (fb_current > fb_target) fb_current -= motionStepArm;
+    if (abs(fb_current - fb_target) < motionStepArm) fb_current = fb_target;
 
     // Up / Down
-    if (ud_current < ud_target) ud_current += STEP_ARM;
-    else if (ud_current > ud_target) ud_current -= STEP_ARM;
-    if (abs(ud_current - ud_target) < STEP_ARM) ud_current = ud_target;
+    if (ud_current < ud_target) ud_current += motionStepArm;
+    else if (ud_current > ud_target) ud_current -= motionStepArm;
+    if (abs(ud_current - ud_target) < motionStepArm) ud_current = ud_target;
 
     // Gripper (faster, or even snap if you want)
-    if (grip_current < grip_target) grip_current += STEP_GRIP;
-    else if (grip_current > grip_target) grip_current -= STEP_GRIP;
-    if (abs(grip_current - grip_target) < STEP_GRIP) grip_current = grip_target;
+    if (grip_current < grip_target) grip_current += motionStepGrip;
+    else if (grip_current > grip_target) grip_current -= motionStepGrip;
+    if (abs(grip_current - grip_target) < motionStepGrip) grip_current = grip_target;
 
     // ---- ACTUAL SERVO OUTPUTS HERE ----
     servoLR.write(lr_current);

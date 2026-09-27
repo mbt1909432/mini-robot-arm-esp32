@@ -21,6 +21,7 @@ state = {
     "current": DEFAULT_HOME.copy(),
     "target": DEFAULT_HOME.copy(),
     "home": DEFAULT_HOME.copy(),
+    "motion": "smooth",
 }
 
 
@@ -42,6 +43,7 @@ def snapshot():
         "current": state["current"].copy(),
         "target": state["target"].copy(),
         "home": state["home"].copy(),
+        "motion": state["motion"],
         "ip": "10.10.10.1",
         "uptime": 0,
     }
@@ -96,6 +98,12 @@ class PreviewHandler(BaseHTTPRequestHandler):
             delta = int(query.get("delta", ["0"])[0])
             if axis in LIMITS:
                 move_to({axis: state["target"][axis] + delta})
+            self.send_json(snapshot())
+            return
+
+        if parsed.path == "/motion":
+            mode = query.get("mode", ["smooth"])[0]
+            state["motion"] = mode if mode in {"smooth", "standard", "fast"} else "smooth"
             self.send_json(snapshot())
             return
 
