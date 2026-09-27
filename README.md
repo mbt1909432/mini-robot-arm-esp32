@@ -15,6 +15,7 @@
 - 关节软限位和渐进移动，降低直接撞到机械极限的风险。
 - 提供不连接硬件的本地 UI 模拟预览。
 - 保存舵盘槽、MG90S 底座避让和 XIAO ESP32-S3 Sense 摄像头支架的修改文件与脚本。
+- 在 `原始代码/` 中保留改造前的固件、网页、接线图和来源说明，便于对比与恢复。
 
 ## 接线
 
@@ -83,4 +84,5 @@ python 代码/91_Robot_Arm_ESP32/preview_server.py --open
 Arduino 原始项目署名为 [Tech Talkies](https://www.youtube.com/@techtalkies1)，相关教程为 [ESP32 Robot Arm](https://www.youtube.com/watch?v=Qdebit3DgCE)。上游代码没有随附明确的开源许可证，因此本仓库不擅自为其指定许可证。详细边界见 [`NOTICE.md`](NOTICE.md)。
 
 本地改动记录见 [`CHANGELOG.md`](CHANGELOG.md)。
+改造前快照及已知问题见 [`原始代码/README.md`](原始代码/README.md)。
 
